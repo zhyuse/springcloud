@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="eureka" />
+        <module name="sericefeign" />
+        <module name="servicehi" />
+        <module name="servicehihi" />
+        <module name="serviceribbon" />
+        <module name="servicezuul" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="eurekaclient" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="eureka" options="-parameters" />
+      <module name="eurekaclient" options="-parameters" />
+      <module name="sericefeign" options="-parameters" />
+      <module name="servicehi" options="-parameters" />
+      <module name="servicehihi" options="-parameters" />
+      <module name="serviceribbon" options="-parameters" />
+      <module name="servicezuul" options="-parameters" />
+    </option>
+  </component>
+</project>
